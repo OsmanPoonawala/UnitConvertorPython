@@ -153,7 +153,7 @@ submitButton = Button(root, text="Submit", command=lambda: calculateConversion(
     typeDrop.get(), firstDrop.get(), secondDrop.get(), valueEntry.get()))
 submitButton.grid(row=4, column=2)
 
-outLabel = Label(root, text='')
+outLabel = Label(root, text='', bg='#cccccc')
 outLabel.grid(row=5, column=2)
 
 root.mainloop()
