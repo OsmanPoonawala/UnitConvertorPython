@@ -7,8 +7,8 @@ root = tk.Tk()
 root.title('Unit Conversion Tool')
 screenW = root.winfo_screenwidth()/2 - 175
 screenH = root.winfo_screenheight()/2 - 250
-screenResolution = "345x500+" + str(screenW) + "+" + str(screenH)
-root.geometry(screenResolution)
+# screenResolution = "345x500+" + str(screenW) + "+" + str(screenH)
+# root.geometry(screenResolution)
 root.resizable(width=False, height=False)
 root.configure(bg='#cccccc')
 
